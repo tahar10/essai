@@ -1,0 +1,197 @@
+/* ==================================================
+	 =SECTIONS
+	 ================================================== */
+.page {
+	background: purple;
+	left: 0;
+	position: relative;
+	transition: all 0.3s;
+}
+.page-menu-open {
+	left: 80%;
+}
+
+header,
+footer {
+	background: #000;
+	overflow: hidden; /* contain floats */
+}
+section {
+	padding: 0 20px;
+}
+.primary {
+	background: #ffcc33;
+}
+.banner {
+	background: url(http://placehold.it/400x140/333) center center no-repeat;
+	background-size: cover;
+	min-height: 140px;
+}
+
+
+
+/* ==================================================
+	 =TYPOGRAPHY
+	 ================================================== */
+
+
+
+
+/* ==================================================
+	 =HEADER
+	 ================================================== */
+header {
+	padding-left: 50px;
+	position: relative;
+}
+.logo {
+	display: block;
+	float: right;
+	padding: 0 20px;
+}
+.logo > img {
+	display: block;
+	max-width: 100%;
+}
+@media all and (min-width: 40em) {
+	.logo {
+		float: left;
+		padding-bottom: 10px;
+	}
+}
+
+.menu-btn {
+	background: none;
+	border: 0 none;
+	color: #fff;
+	font-size: 50px;
+	left: 0;
+	min-height: 50px;
+	min-width: 50px;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	outline: none;
+}
+@media all and (min-width: 40em) {
+	.menu-btn {
+		display: none;
+	}
+}
+
+nav {
+	background: #222;
+	height: 100%;
+	left: -80%;
+	margin: 0;
+	overflow: hidden; /* contain floats */
+	position: absolute;
+	top: 0;
+	width: 80%;
+}
+.nav {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav-item > a {
+	border-bottom: 1px solid #333;
+	display: block;
+	padding: 15px 10px;
+}
+.nav-item > a,
+.nav-item > a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+@media all and (min-width: 40em) {
+	nav {
+		background: #000;
+		left: 0;
+		position: relative;
+		width: 100%;
+	}
+	.nav-item,
+	.nav-item > a {
+		border: 0 none;
+		display: inline-block;
+	}
+
+}
+
+.search, .social {
+	display: none;
+}
+
+
+
+
+/* ==================================================
+	 =BANNER
+	 ================================================== */
+
+
+
+
+/* ==================================================
+	 =INSTAGRAM
+	 ================================================== */
+
+
+
+
+/* ==================================================
+	 =VIDEO
+	 ================================================== */
+
+
+
+
+/* ==================================================
+	 =GRID
+	 ================================================== */
+.grid, .row, .col {
+	box-sizing: border-box;
+}
+.row, .col {
+	overflow: hidden; /* contain floats */
+}
+.grid {
+	margin: 0 auto;
+	max-width: 1000px;
+}
+.row {
+	margin: 0 -20px;
+}
+.col {
+	padding: 20px;
+}
+
+@media all and (min-width: 40em) {
+	.col {
+		float: left;
+	}
+
+	/*
+		target / context * 100
+		166.666666667px / 1000px * 100
+	*/
+	.col-1 {
+		width: 16.666666667%;
+	}
+	.col-2 {
+		width: 33.333333334%;
+	}
+	.col-3 {
+		width: 50%;
+	}
+	.col-4 {
+		width: 66.666666668%;
+	}
+	.col-5 {
+		width: 83.333333335%;
+	}
+	.col-6 {
+		width: 100%;
+	}
+}

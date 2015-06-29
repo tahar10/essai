@@ -1,0 +1,14 @@
+{
+  "name": "lpatc2015_demo",
+  "version": "1.0.0",
+  "description": "Test project",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "normalize.css-browser": "^2.1.2-1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.9",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^2.3.1"
+  }
+}
